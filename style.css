@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: #3a464b;
+    background-image: url('./imgs/2.jpg');
+    background-position: center 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.homeHeader{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 1000px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    overflow: hidden;
+}
+.logo a {
+    display: block;
+    height: 60px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+.logo a img {
+    height: 50px;
+}
+.nav-menu{
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.nav-menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+.nav-menu ul li{
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    cursor: pointer
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.nav-menu ul li a:hover{
+    background-color: #b81abc;
+    border-radius: 5px;
+}
+.slider-content{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    margin-left: 13px;
+    overflow: hidden;
+    float: left;
+    padding-right: 20px;
+}
+.inner-text{
+    overflow: hidden;
+    width: 725px;
+}
+.slider-content span{
+    font-size: 3.5em;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+}
+.slider-content p{
+    font-size: 2em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.slider-content a{
+    background-color: #b81abc;
+    border: medium none;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.7em;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
