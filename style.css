@@ -4,7 +4,7 @@
 }
 #header{
     background-color: #3a464b;
-    background-image: url('./imgs/2.jpg');
+    /* background-image: url('./imgs/2.jpg'); */
     background-position: center 25%;
     background-repeat: no-repeat;
     background-size: cover;
